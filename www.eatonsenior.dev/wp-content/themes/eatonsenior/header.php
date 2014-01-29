@@ -35,7 +35,7 @@
 <div id="page" class="hfeed site">
 	<header id="masthead" class="site-header" role="banner">
 		<div id="head">
-			<img id="head_logo" src="<?php echo get_stylesheet_directory_uri(); ?>/images/esc_logo_125.png" />
+			<a href="/"><img id="head_logo" src="<?php echo get_stylesheet_directory_uri(); ?>/images/esc_logo_125.png" /></a>
 			<div id="head_search">
 				<?php get_search_form(); ?>
 			</div>

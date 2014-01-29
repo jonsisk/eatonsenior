@@ -29,6 +29,10 @@ background: linear-gradient(to bottom,  rgba(255,255,255,0.78) 0%,rgba(255,255,2
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c7ffffff', endColorstr='#4ac1d72d',GradientType=0 ); /* IE6-8 */
 }
 
+.clear {
+	clear: both;
+	}
+
 /* ---------- Start of Header ---------- */
 
 #masthead {
@@ -128,3 +132,38 @@ ul#menu-main-menu {
 #main {
 	padding: 0 20px;
 	}
+/* ---------- End of Body ---------- */
+
+/* ---------- Start of Footer ---------- */
+.one_third_foot {
+	width: 33%;
+	float: left;
+	}
+#footer {
+	background: #eee;
+	padding: 20px;
+	border-top: 1px solid #333;
+	}
+.widget-area .widget p {
+	margin-bottom: 15px;
+	}
+#footer .widget-area .widget {
+	margin-bottom:0;
+	}
+#footer_attrib {
+	padding: 20px;
+	color:white;
+	text-align: right;
+	background: #225075;
+	}
+#footer_menu ul li a{
+	float:left;
+	color:white;
+	text-decoration:none;
+	padding: 0 10px;
+	}
+#footer_menu ul li a:hover{
+	text-decoration:underline;
+	}
+/* ---------- End of Footer ---------- */
+
