@@ -44,20 +44,35 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c7ffffff', e
 
 h1, h2, h3, h4, h5, h6 {
 	clear: none;
+	color: #019390
 	}
-	
+
+h1,
+.entry-content h1,
+.comment-content h1 {
+	font-size: 32px;
+	margin: 10px 0 10px;
+	font-weight:normal;
+	}
+
 h2,
 .entry-content h2,
 .comment-content h2 {
 	font-size: 27px;
-	color: #019390;
 	margin: 0 0 10px;
 	font-weight:normal;
 	}
 
 .entry-content h3 {
 	margin: 0;
+	font-size: 22px;
 	}
+
+.entry-content h4 {
+	margin: 0;
+	font-size: 18px;
+	}	
+
 .clear {
 	clear: both;
 	}
