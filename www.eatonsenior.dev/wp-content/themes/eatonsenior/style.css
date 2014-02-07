@@ -96,6 +96,12 @@ h2,
 	float: left;
 	}
 	
+.board p {
+	margin: 0 0 24px;
+	margin: 0 0 1.714285714rem;
+	line-height: 1.714285714;
+	}
+	
 /* ---------- Start of Header ---------- */
 
 #masthead {
@@ -258,4 +264,38 @@ ul#menu-main-menu {
 	}
 #esp-handyman ul {
 	list-style-image:url('http://www.eatonsenior.org/images/checkbox.png');
+	}
+	
+/* ---------- Our Team ---------- */
+.staff_block {
+	clear:both;
+	min-height: 250px;
+	}
+
+.staff_image {
+	float:left;
+	margin: 5px 15px;
+	}
+
+.board_block {
+	clear:both;
+	min-height: 210px;
+	}
+	
+.board_image {
+	float:left;
+	margin: 0 10px 0 0;
+	}
+	
+/* ---------- Sidebar ---------- */
+.aboutus {
+	width: 300px;
+	margin: 100px 0 0;
+	}
+	
+.board {
+	width: 300px;
+	}
+.widget-area h2 {
+	line-height: 32px;
 	}
