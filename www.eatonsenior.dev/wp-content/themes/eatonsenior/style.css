@@ -15,6 +15,19 @@
 /* =Theme customization starts here
 -------------------------------------------------------------- */
 
+.green {
+	color: #99BF40;
+	}
+.blue {
+	blue: #009390;
+	}
+
+.site {
+	max-width:1024px;
+	min-width:1024px;
+	width:1024px;
+	}
+
 body .site {
 	padding:0;
 	}
@@ -29,10 +42,45 @@ background: linear-gradient(to bottom,  rgba(255,255,255,0.78) 0%,rgba(255,255,2
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c7ffffff', endColorstr='#4ac1d72d',GradientType=0 ); /* IE6-8 */
 }
 
+h1, h2, h3, h4, h5, h6 {
+	clear: none;
+	}
+	
+h2,
+.entry-content h2,
+.comment-content h2 {
+	font-size: 27px;
+	color: #019390;
+	margin: 0 0 10px;
+	font-weight:normal;
+	}
+
+.entry-content h3 {
+	margin: 0;
+	}
 .clear {
 	clear: both;
 	}
+.center {
+	text-align:center;
+	}
+	
+.noshadow {
+	box-shadow: none !important;
+	}
+.entry-content a,
+.entry-content a:visited,
+.widget-area .widget a,
+.widget-area .widget a:visited{
+	color:#225075;
+	}
 
+.half-width {
+	width: 48%;
+	margin: 1%;
+	float: left;
+	}
+	
 /* ---------- Start of Header ---------- */
 
 #masthead {
@@ -122,8 +170,8 @@ ul#menu-main-menu {
 	height: 30px;
 	}
 #head_banner_home {
-	background: url(images/denver.jpg) 0 -75px no-repeat;
-	height: 250px;
+	background: url(images/denver.jpg) 0 -65px no-repeat;
+	height: 260px;
 	}
 	
 /* ---------- End of Header ---------- */
@@ -131,6 +179,14 @@ ul#menu-main-menu {
 /* ---------- Start of Body ---------- */
 #main {
 	padding: 0 20px;
+	}
+.site-content {
+	margin: 0;
+	}
+.site-content article {
+	border-bottom: 0;
+	margin: 0;
+	padding: 0;
 	}
 /* ---------- End of Body ---------- */
 
@@ -167,3 +223,24 @@ ul#menu-main-menu {
 	}
 /* ---------- End of Footer ---------- */
 
+/* ---------- Handyman Page ---------- */
+
+#esp-handyman #column {
+	width: 400px;
+	margin: 0 10px;
+	float: left;
+	}
+#esp-handyman strong {
+	display:block;
+	font-size:25px;
+	line-height:28px;
+	padding:10px;
+	text-align:center;
+	}
+#esp-handyman .blue {
+	font-size:22px;
+	color: #009390;
+	}
+#esp-handyman ul {
+	list-style-image:url('http://www.eatonsenior.org/images/checkbox.png');
+	}
