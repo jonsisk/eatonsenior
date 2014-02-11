@@ -102,6 +102,11 @@ h2,
 	line-height: 1.714285714;
 	}
 	
+.entry-content ul,
+.comment-content ul,
+.mu_register ul {
+	list-style: disc inside;
+	}
 /* ---------- Start of Header ---------- */
 
 #masthead {
@@ -300,6 +305,17 @@ ul#menu-main-menu {
 	padding: 5px;
 	}
 	
+/* ---------- The Residences ---------- */
+#res_images {
+	float:left;
+	width:650px;
+	margin: 10px 0 20px;
+	}
+	
+#post-23 .alignleft{
+	margin-bottom:30px;
+	}
+
 /* ---------- Sidebar ---------- */
 .aboutus {
 	width: 300px;
