@@ -76,5 +76,20 @@ function create_post_type() {
 		'supports' => array( 'title', 'editor', 'thumbnail')
 		)
 	);
+	register_post_type( 'newsletter',
+		array(
+			'labels' => array(
+				'name' => __( 'Newsletter' ),
+				'singular_name' => __( 'Newsletter' ),
+				'add_new_item' => ('Add New Newsletter'),
+				'edit_item' => ('Edit Newsletter'),
+				'new_item' => ('New Newsletter'),
+				'view_staff' => ('View Newsletter')
+			),
+		'public' => true,
+		'has_archive' => false,
+		'supports' => array( 'title', 'editor')
+		)
+	);
 }
 ?>

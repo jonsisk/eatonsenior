@@ -286,13 +286,26 @@ ul#menu-main-menu {
 	float:left;
 	margin: 0 10px 0 0;
 	}
+
+/* ---------- Res & Comm Stories ---------- */
+.newsletter_thumb {
+	text-align:center;
+	display:block;
+	margin: 0 0 20px;
+	}
+.newsletter_thumb img {
+	width: 225px;
+	box-shadow: 0 0 10px #333;
+	margin: 10px;
+	padding: 5px;
+	}
 	
 /* ---------- Sidebar ---------- */
 .aboutus {
 	width: 300px;
 	margin: 100px 0 0;
 	}
-	
+
 .board {
 	width: 300px;
 	}
