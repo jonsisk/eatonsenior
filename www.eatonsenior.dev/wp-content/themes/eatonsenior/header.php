@@ -35,7 +35,10 @@
 <div id="page" class="hfeed site">
 	<header id="masthead" class="site-header" role="banner">
 		<div id="head">
-			<a href="/"><img id="head_logo" src="<?php echo get_stylesheet_directory_uri(); ?>/images/esc_logo_125.png" /></a>
+			<a href="/"><img id="head_logo" src="<?php
+				if (is_page('foundation')) { echo get_stylesheet_directory_uri() . '/images/foundation_logo_125.png"/></a>';}
+				else { echo get_stylesheet_directory_uri() . '/images/esc_logo_125.png"/></a>';}
+				?>
 			<div id="head_search">
 				<?php get_search_form(); ?>
 			</div>
@@ -48,7 +51,7 @@
 		<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php header_image(); ?>" class="header-image" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="" /></a>
 		<?php endif; ?>
 		</div>
-		<div id="<?php if (is_front_page()) { echo 'head_banner_home'; } else { echo 'head_banner'; }?>" >
+		<div id="<?php if (is_front_page()) { echo 'head_banner_home'; } elseif (is_page('foundation')) { echo 'head_banner_foundation';} else { echo 'head_banner'; }?>" >
 		</div>
 	</header><!-- #masthead -->
 

@@ -107,6 +107,10 @@ h2,
 .mu_register ul {
 	list-style: disc inside;
 	}
+	
+blockquote {
+	color: #019390;
+	}
 /* ---------- Start of Header ---------- */
 
 #masthead {
@@ -198,6 +202,10 @@ ul#menu-main-menu {
 #head_banner_home {
 	background: url(images/denver.jpg) 0 -65px no-repeat;
 	height: 260px;
+	}
+#head_banner_foundation{
+	background: #c1d72e;
+	height: 30px;
 	}
 	
 /* ---------- End of Header ---------- */
@@ -316,12 +324,42 @@ ul#menu-main-menu {
 	margin-bottom:30px;
 	}
 
-/* ---------- Sidebar ---------- */
-.aboutus {
-	width: 300px;
-	margin: 100px 0 0;
+/* ---------- Assisted Living ---------- */
+#al_images {
+	float:left;
+	width:520px;
+	}
+#al_images > div {
+	margin-bottom:10px;
 	}
 
+/* ---------- Assisted Living ---------- */
+#wellness_right {
+	float:right;
+	width:300px;
+	}
+
+#wellness_left {
+	width:650px;
+	}
+	
+/* ---------- Sidebar ---------- */
+.aboutus,
+#fdn_sidebar {
+	width: 300px;
+	margin: 100px 0 0;
+	float: right;
+	}
+	
+#fdn_sidebar a {
+	text-decoration: none;
+	font-weight:bold;
+	}
+	
+#fdn_sidebar a:hover {
+	color: #99BF40;
+	}
+	
 .board {
 	width: 300px;
 	}
