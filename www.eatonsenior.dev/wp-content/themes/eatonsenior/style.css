@@ -228,11 +228,12 @@ ul#menu-main-menu {
 .one_third_foot {
 	width: 33%;
 	float: left;
+	margin-top: -60px;
 	}
 #footer {
 	background: #eee;
 	padding: 20px;
-	border-top: 1px solid #333;
+	border-top: 40px solid #225075;
 	}
 .widget-area .widget p {
 	margin-bottom: 15px;
@@ -255,6 +256,17 @@ ul#menu-main-menu {
 #footer_menu ul li a:hover{
 	text-decoration:underline;
 	}
+.widget-area .widget p,
+.widget-area .widget li,
+.widget-area .widget .textwidget {
+	font-size: 15px;
+	line-height: 23px;
+	}
+.widget-title {
+	font-size: 19px;
+	color: white;
+	}
+
 /* ---------- End of Footer ---------- */
 
 /* ---------- Handyman Page ---------- */
