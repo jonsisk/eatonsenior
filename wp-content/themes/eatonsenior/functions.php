@@ -58,7 +58,8 @@ function create_post_type() {
 			),
 		'public' => true,
 		'has_archive' => false,
-		'supports' => array( 'title', 'editor', 'thumbnail')
+		'supports' => array( 'title', 'editor', 'thumbnail'),
+		'exclude_from_search' => true
 		)
 	);
 	register_post_type( 'board',
@@ -73,7 +74,8 @@ function create_post_type() {
 			),
 		'public' => true,
 		'has_archive' => false,
-		'supports' => array( 'title', 'editor', 'thumbnail')
+		'supports' => array( 'title', 'editor', 'thumbnail'),
+		'exclude_from_search' => true
 		)
 	);
 	register_post_type( 'newsletter',
@@ -88,7 +90,8 @@ function create_post_type() {
 			),
 		'public' => true,
 		'has_archive' => false,
-		'supports' => array( 'title', 'editor')
+		'supports' => array( 'title', 'editor'),
+		'exclude_from_search' => true
 		)
 	);
 }

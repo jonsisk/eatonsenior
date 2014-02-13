@@ -18,7 +18,11 @@ get_header(); ?>
 		<div id="content" role="main">
 
 			<?php while ( have_posts() ) : the_post(); ?>
-				<?php get_template_part( 'content', 'page' ); ?>
+				<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+					<div class="entry-content">
+						<?php get_template_part( 'content', 'page' ); ?>
+					</div>
+				</article>
 			<?php endwhile; // end of the loop. ?>
 
 		</div><!-- #content -->
