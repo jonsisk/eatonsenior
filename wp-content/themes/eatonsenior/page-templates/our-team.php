@@ -25,7 +25,7 @@ get_header(); ?>
 					<?php while ( have_posts() ) : the_post(); ?>
 						<?php get_template_part( 'content', 'page' ); ?>
 					<?php endwhile; // end of the loop. ?>
-					<?php $staff_query = new WP_Query( array ('post_type' => 'staff') );
+					<?php $staff_query = new WP_Query( array ('post_type' => 'staff', 'posts_per_page' => -1) );
 					while ( $staff_query->have_posts() ) : $staff_query->the_post(); ?>
 						<div class="staff_block">
 							<div class="staff_image">
